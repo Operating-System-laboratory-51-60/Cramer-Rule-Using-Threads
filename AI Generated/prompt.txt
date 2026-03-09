@@ -1,0 +1,8 @@
+Prompt:
+Write a C program to solve a massive system of linear equations (N >= 1000) using Cramer's Rule.
+Instead of multi-processing, you must use POSIX threads (pthreads) and shared memory arrays to speed up the determinant calculations.
+The program needs to:
+1. Auto-detect the number of CPU cores using the `lscpu` command.
+2. Distribute the workload evenly across the threads.
+3. Implement a thread-safe logger using `pthread_mutex_t` that prints timestamps, thread IDs, and progress updates to both the terminal and an output file.
+Keep all code in a single, efficient file.
