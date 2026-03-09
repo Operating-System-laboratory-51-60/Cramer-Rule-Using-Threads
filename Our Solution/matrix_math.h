@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-typedef struct
+typedef struct Matrix
 {
     int size;
     double **data;
@@ -12,9 +12,9 @@ typedef struct
 
 Matrix* create_matrix(int n)
 {
-    Matrix m = (Matrix)malloc(sizeof(Matrix));
+    Matrix* m = (Matrix*) malloc (sizeof(Matrix));
     m->size = n;
-    m->data = (double*)malloc(n * sizeof(double));
+    m->data = (double**)malloc(n * sizeof(double*));
     for(int i=0;i<n;i++) m->data[i] = (double*)malloc(n * sizeof(double));
     return m;
 }
