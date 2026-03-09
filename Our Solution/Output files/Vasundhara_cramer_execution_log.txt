@@ -1,0 +1,64 @@
+[15:42:07] ==========================================
+[15:42:07]  PTHREAD CRAMER'S RULE SOLVER 
+[15:42:07] ==========================================
+[15:42:20] [User Input] Matrix Size set to N = 100
+[15:42:20] [System] Auto-detected 14 CPU cores via lscpu.
+[15:42:20] [Init] Generating random coefficients...
+[15:42:20] [Math] Pre-computing main determinant...
+[15:42:20] [Math] Main determinant calculated: -1.267706e+152
+[15:42:20] [Threads] Launching 14 Pthreads to solve 100 variables...
+[15:42:20] [Thread 2] Started processing columns 16 to 23.
+[15:42:20] [Thread 0] Started processing columns 0 to 7.
+[15:42:20] [Thread 1] Started processing columns 8 to 15.
+[15:42:20] [Thread 6] Started processing columns 48 to 55.
+[15:42:20] [Thread 8] Started processing columns 64 to 71.
+[15:42:20] [Thread 5] Started processing columns 40 to 47.
+[15:42:20] [Thread 7] Started processing columns 56 to 63.
+[15:42:20] [Thread 3] Started processing columns 24 to 31.
+[15:42:20] [Thread 4] Started processing columns 32 to 39.
+[15:42:20] [Thread 9] Started processing columns 72 to 79.
+[15:42:20] [Thread 10] Started processing columns 80 to 87.
+[15:42:20] [Thread 11] Started processing columns 88 to 95.
+[15:42:20] [Thread 12] Started processing columns 96 to 99.
+[15:42:20] [Thread 6] Finished column 49.
+[15:42:20] [Thread 2] Finished column 23.
+[15:42:20] [Thread 2] Completed workload.
+[15:42:20] [Thread 7] Finished column 63.
+[15:42:20] [Thread 6] Finished column 55.
+[15:42:20] [Thread 1] Finished column 15.
+[15:42:20] [Thread 1] Completed workload.
+[15:42:20] [Thread 0] Finished column 7.
+[15:42:20] [Thread 0] Completed workload.
+[15:42:20] [Thread 8] Finished column 71.
+[15:42:20] [Thread 7] Completed workload.
+[15:42:20] [Thread 3] Finished column 31.
+[15:42:20] [Thread 3] Completed workload.
+[15:42:20] [Thread 8] Completed workload.
+[15:42:20] [Thread 6] Completed workload.
+[15:42:20] [Thread 12] Finished column 99.
+[15:42:20] [Thread 12] Completed workload.
+[15:42:20] [Thread 11] Finished column 95.
+[15:42:20] [Thread 11] Completed workload.
+[15:42:20] [Thread 10] Finished column 87.
+[15:42:20] [Thread 10] Completed workload.
+[15:42:20] [Thread 9] Finished column 79.
+[15:42:20] [Thread 9] Completed workload.
+[15:42:20] [Thread 5] Finished column 47.
+[15:42:20] [Thread 5] Completed workload.
+[15:42:20] [Thread 4] Finished column 39.
+[15:42:20] [Thread 4] Completed workload.
+[15:42:20] ------------------------------------------
+[15:42:20] [Success] Calculation Complete!
+[15:42:20] [Performance] Total Time Elapsed: 0.0376 seconds
+[15:42:20] [Results] Preview of Solutions (First 10):
+[15:42:20]  x[0] = 7.735344
+[15:42:20]  x[1] = 20.766037
+[15:42:20]  x[2] = -60.976386
+[15:42:20]  x[3] = -38.934303
+[15:42:20]  x[4] = 90.389253
+[15:42:20]  x[5] = -28.584173
+[15:42:20]  x[6] = 23.562658
+[15:42:20]  x[7] = -34.586570
+[15:42:20]  x[8] = -107.870371
+[15:42:20]  x[9] = -65.814681
+[15:42:20] [System] Shutting down normally.
